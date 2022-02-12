@@ -2,6 +2,7 @@
   "name": "candy-machine-mint",
   "version": "0.1.0",
   "private": true,
+  "type-check": "tsc",
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/runtime": "7.x",
@@ -15,7 +16,7 @@
     "@solana/wallet-adapter-react": "^0.13.1",
     "@solana/wallet-adapter-react-ui": "^0.6.1",
     "@solana/wallet-adapter-wallets": "^0.11.3",
-    "@solana/web3.js": "^1.32.0",
+    "@solana/web3.js": "^1.34.0",
     "@testing-library/dom": ">=7.21.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -24,14 +25,21 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "all": "^0.0.0",
+    "bs58": "^4.0.1",
     "canvas-confetti": "^1.4.0",
+    "framer-motion": "4.1.17",
     "prop-types": ">=15.7.2",
     "react": "^17.0.2",
     "react-countdown": "^2.3.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-is": "17.0.2",
+    "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
+    "react-spinners-kit": "^1.9.1",
     "styled-components": "^5.3.1",
+    "ts-node": "^10.5.0",
     "typescript": "^4.5.5",
     "web-vitals": "^1.0.1"
   },
@@ -63,6 +71,7 @@
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "@babel/plugin-syntax-class-properties": "^7.12.13",
     "@types/canvas-confetti": "^1.4.2",
+    "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.14"
   }
 }
