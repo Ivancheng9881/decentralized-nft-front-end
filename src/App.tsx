@@ -1,8 +1,7 @@
-import GlobalStyle from "./globalStyles";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Navbar } from "./components";
-
+import Home from "./Home";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { useMemo } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {
   ConnectionProvider,
   WalletProvider,
@@ -25,7 +24,10 @@ import {
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 
 import "./App.css";
-import Home from "./Home";
+import Navbar from "./components/Navbar";
+import Vision from "./components/Vision";
+import Gallery from "./components/Gallery";
+import Faq from "./components/Faq";
 
 require("@solana/wallet-adapter-react-ui/styles.css");
 
@@ -67,14 +69,26 @@ const App = () => {
       <WalletProvider wallets={wallets} autoConnect={true}>
         <WalletModalProvider>
           <Router>
-            <GlobalStyle />
             <Navbar />
-            <Home
-              candyMachineId={candyMachineId}
-              connection={connection}
-              txTimeout={txTimeout}
-              rpcHost={rpcHost}
-            />
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <Home
+                    candyMachineId={candyMachineId}
+                    connection={connection}
+                    txTimeout={txTimeout}
+                    rpcHost={rpcHost}
+                  />
+                }
+              />
+
+              <Route path="/Vision" element={<Vision />} />
+
+              <Route path="/Gallery" element={<Gallery />} />
+
+              <Route path="/Faq" element={<Faq />} />
+            </Routes>
           </Router>
         </WalletModalProvider>
       </WalletProvider>

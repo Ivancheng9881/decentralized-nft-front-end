@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "rootDir": "src",
-    "pretty": true,
     "target": "es5",
     "lib": [
       "dom",
