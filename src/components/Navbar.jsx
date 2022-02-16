@@ -1,23 +1,21 @@
 import React, { Component } from "react";
-import { Navbar, Nav } from "react-bootstrap";
-import { Container } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import LogoImg from "../assets/chibigirl.png";
+import styled from "styled-components";
+
+const StyledNavbar = styled(Navbar)`
+  background-color: transparent;
+  
+`;
 
 export default class NavigationBar extends Component {
   render() {
     return (
       <div>
-        <Navbar
-          sticky="top"
-          collapseOnSelect
-          expand="lg"
-          bg="dark"
-          variant="dark"
-        >
+        <StyledNavbar sticky="top" collapseOnSelect expand="lg">
           <Container>
             <LinkContainer to="/">
-              <Navbar.Brand><img src={LogoImg} width="50" height="50" alt=""/>Chibi Kingdoms</Navbar.Brand>
+              <Navbar.Brand>Chibi Kingdoms</Navbar.Brand>
             </LinkContainer>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -31,17 +29,21 @@ export default class NavigationBar extends Component {
                 </LinkContainer>
               </Nav>
               <Nav>
-                <LinkContainer to="/Faq">
+                <LinkContainer to="/faq">
                   <Nav.Link>FAQ</Nav.Link>
                 </LinkContainer>
 
-                <Nav.Link eventKey={2} target="_blank" href="https://magiceden.io">
+                <Nav.Link
+                  eventKey={2}
+                  target="_blank"
+                  href="https://magiceden.io"
+                >
                   MagicEden
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
-        </Navbar>
+        </StyledNavbar>
       </div>
     );
   }

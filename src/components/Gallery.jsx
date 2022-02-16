@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-
-export default class Gallery extends Component {
-  render() {
-    return (
-      <div>Gallery</div>
-    )
-  }
+function Gallery() {
+  return (
+    <div>
+      <p>Gallery</p>
+    </div>
+  );
 }
+
+export default Gallery;

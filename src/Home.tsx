@@ -20,9 +20,7 @@ import {
 } from "./candy-machine";
 
 import AnimatedChibi from "./ChibiAnimated";
-
-import LogoImg from "./assets/chibigirl.png";
-import ChibiGif from "./assets/chibigif.gif";
+import ChibiGif from "./assets/distortedchibi.gif";
 
 const cluster = process.env.REACT_APP_SOLANA_NETWORK!.toString();
 const decimals = process.env.REACT_APP_SPL_TOKEN_TO_MINT_DECIMALS
@@ -32,11 +30,16 @@ const splTokenName = process.env.REACT_APP_SPL_TOKEN_TO_MINT_NAME
   ? process.env.REACT_APP_SPL_TOKEN_TO_MINT_NAME.toString()
   : "TOKEN";
 
+
+
+
+
 const WalletContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: right;
+  background-color: red;
 `;
 
 const WalletAmount = styled.div`
@@ -46,7 +49,7 @@ const WalletAmount = styled.div`
   min-width: 48px;
   min-height: auto;
   border-radius: 22px;
-  background-color: var(--main-text-color);
+  background-color: transparent;
   box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
     0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
   box-sizing: border-box;
@@ -68,11 +71,6 @@ const WalletAmount = styled.div`
   gap: 10px;
 `;
 
-const Wallet = styled.ul`
-  flex: 0 0 auto;
-  margin: 0;
-  padding: 0;
-`;
 
 const ConnectButton = styled(WalletMultiButton)`
   border-radius: 18px !important;
@@ -85,7 +83,8 @@ const NFT = styled(Paper)`
   min-width: 400px;
   padding: 5px 20px 20px 20px;
   flex: 1 1 auto;
-  background-color: var(--card-background-color) !important;
+  background-color: transparent !important;
+  border-radius: 100px;
 `;
 const Des = styled(NFT)`
   text-align: left;
@@ -96,7 +95,7 @@ const Des = styled(NFT)`
 
 const Card = styled(Paper)`
   display: inline-block;
-  background-color: var(--card-background-lighter-color) !important;
+  background-color: red !important;
   margin: 5px;
   padding: 24px;
 `;
@@ -126,17 +125,9 @@ const MintButtonContainer = styled.div`
   }
 `;
 
-const Logo = styled.div`
-  flex: 0 0 auto;
-
-  img {
-    height: 60px;
-  }
-`;
-
 const SolExplorerLink = styled.a`
-  color: var(--title-text-color);
-  border-bottom: 1px solid var(--title-text-color);
+  color: red;
+  border-bottom: 1px solid red;
   font-weight: bold;
   list-style-image: none;
   list-style-position: outside;
@@ -146,17 +137,14 @@ const SolExplorerLink = styled.a`
   text-size-adjust: 100%;
 
   :hover {
-    border-bottom: 2px solid var(--title-text-color);
+    border-bottom: 2px solid red;
   }
 `;
 
 const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 4%;
-  margin-left: 4%;
+  height: 100vh;
   text-align: center;
   justify-content: center;
 `;
@@ -196,10 +184,10 @@ const BorderLinearProgress = styled(LinearProgress)`
   border-radius: 30px;
   border: 2px solid white;
   box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.5);
-  background-color: var(--main-text-color) !important;
+  background-color: red !important;
 
   > div.MuiLinearProgress-barColorPrimary {
-    background-color: var(--title-text-color) !important;
+    background-color: red !important;
   }
 
   > div.MuiLinearProgress-bar1Determinate {
@@ -216,20 +204,19 @@ const ShimmerTitle = styled.h1`
   margin: 50px auto;
   text-transform: uppercase;
   animation: glow 2s ease-in-out infinite alternate;
-  color: var(--main-text-color);
+  color: red;
   @keyframes glow {
     from {
-      text-shadow: 0 0 20px var(--main-text-color);
+      text-shadow: 0 0 20px red;
     }
     to {
-      text-shadow: 0 0 30px var(--title-text-color),
-        0 0 10px var(--title-text-color);
+      text-shadow: 0 0 30px red, 0 0 10px red;
     }
   }
 `;
 
 const GoldTitle = styled.h2`
-  color: var(--title-text-color);
+  color: red;
 `;
 
 const LogoAligner = styled.div`
@@ -500,36 +487,25 @@ const Home = (props: HomeProps) => {
   ]);
 
   return (
-    <main>
+    <MainContainer>
+
       <MainContainer>
         <WalletContainer>
-          <Logo>
-            <a
-              href="http://localhost:3000/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img alt="" src={LogoImg} />
-            </a>
-          </Logo>
-
-          <Wallet>
             {wallet ? (
               <WalletAmount>
                 {(balance || 0).toLocaleString()} SOL
                 <ConnectButton />
               </WalletAmount>
             ) : (
-              <ConnectButton>Connect Wallet</ConnectButton>
+              <ConnectButton>SELECT</ConnectButton>
             )}
-          </Wallet>
         </WalletContainer>
         <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
         <br />
 
         <MintContainer>
           <DesContainer>
-            <NFT elevation={3}>
+            <NFT elevation={24}>
               <h2>Kingdom Chibis</h2>
               <br />
               <div>
@@ -646,7 +622,7 @@ const Home = (props: HomeProps) => {
           {alertState.message}
         </Alert>
       </Snackbar>
-    </main>
+    </MainContainer>
   );
 };
 

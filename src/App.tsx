@@ -1,7 +1,6 @@
-import Home from "./Home";
+import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useMemo } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {
   ConnectionProvider,
   WalletProvider,
@@ -22,12 +21,11 @@ import {
 } from "@solana/wallet-adapter-wallets";
 
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
-
-import "./App.css";
-import Navbar from "./components/Navbar";
-import Vision from "./components/Vision";
+import NavigationBar from "./components/Navbar";
+import Home from "./Home";
 import Gallery from "./components/Gallery";
 import Faq from "./components/Faq";
+import Vision from "./components/Vision";
 
 require("@solana/wallet-adapter-react-ui/styles.css");
 
@@ -65,11 +63,11 @@ const App = () => {
   );
 
   return (
-    <ConnectionProvider endpoint={endpoint}>
-      <WalletProvider wallets={wallets} autoConnect={true}>
-        <WalletModalProvider>
-          <Router>
-            <Navbar />
+    <div className="App">
+      <ConnectionProvider endpoint={endpoint}>
+        <WalletProvider wallets={wallets} autoConnect={true}>
+          <WalletModalProvider>
+            <NavigationBar />
             <Routes>
               <Route
                 path="/"
@@ -82,17 +80,14 @@ const App = () => {
                   />
                 }
               />
-
-              <Route path="/Vision" element={<Vision />} />
-
-              <Route path="/Gallery" element={<Gallery />} />
-
-              <Route path="/Faq" element={<Faq />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/faq" element={<Faq />} />
+              <Route path="/vision" element={<Vision />} />
             </Routes>
-          </Router>
-        </WalletModalProvider>
-      </WalletProvider>
-    </ConnectionProvider>
+          </WalletModalProvider>
+        </WalletProvider>
+      </ConnectionProvider>
+    </div>
   );
 };
 

@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&Bangers&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -29,15 +33,38 @@
       src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
       crossorigin
     ></script>
+    <style>
+      img {
+        pointer-events: none;
+      }
+
+      .app__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .app__container .loading__text {
+        font-family: "Press Start 2P", cursive;
+        color: black;
+      }
+
+      .gif__container {
+        text-align: center;
+      }
+
+      .loading__gif {
+        width: 15%;
+      }
+    </style>
 
     <script>
       var Alert = ReactBootstrap.Alert;
     </script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.jpg" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -49,20 +76,19 @@
       Learn how to configure a non-root public URL by running `npm run build`.
       
     -->
-    <title>Mint Page</title>
+    <title>CHIBI KINGDOMS</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="root">
+      <div class="app__container">
+        <div class="loading__text">
+            Loading...
+        </div>
+        <div class="gif__container">
+            <img src="swordgif.gif" className="loading__gif" alt="loading-gif"></img>
+        </div>
+    </div>
+    </div>
+    
   </body>
 </html>
