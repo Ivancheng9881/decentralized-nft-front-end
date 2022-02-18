@@ -4,8 +4,8 @@ import "./button.css";
 const CoolButton = (props) => {
   return (
     <div class="wrapper">
-      <a class="cta" href="#https://localhost:3000">
-        <span>NEXT</span>
+      <a class="cta" href="/mint">
+        <span>MINT</span>
         <span>
           <svg
             width="66px"

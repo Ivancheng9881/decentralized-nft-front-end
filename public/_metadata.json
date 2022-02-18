@@ -1,0 +1,2952 @@
+[
+  {
+    "name": "Chibi Kingdoms #0",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/0.png",
+    "edition": 0,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 17"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 9"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 18"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "29"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blue Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #1",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/1.png",
+    "edition": 1,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 3"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 3"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 5"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "15"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blue Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #2",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/2.png",
+    "edition": 2,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 8"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 7"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 8"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "11"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blue Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #3",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/3.png",
+    "edition": 3,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 6"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 13"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 6"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "12"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #4",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/4.png",
+    "edition": 4,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 5"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 14"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 20"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "10"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #5",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/5.png",
+    "edition": 5,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 9"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 7"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "13"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #6",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/6.png",
+    "edition": 6,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 16"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 7"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 14"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "12"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #7",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/7.png",
+    "edition": 7,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 3"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 10"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 5"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "11"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #8",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/8.png",
+    "edition": 8,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 14"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 4"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 5"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "16"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #9",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/9.png",
+    "edition": 9,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 12"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 13"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "18"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Ice Spear"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #10",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/10.png",
+    "edition": 10,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 17"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 14"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 20"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "17"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blue Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #11",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/11.png",
+    "edition": 11,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 3"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 7"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 5"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "13"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #12",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/12.png",
+    "edition": 12,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 5"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 11"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 2"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "9"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #13",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/13.png",
+    "edition": 13,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 6"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 15"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 11"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "13"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #14",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/14.png",
+    "edition": 14,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 3"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 10"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 5"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "24"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Flame Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #15",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/15.png",
+    "edition": 15,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 4"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 2"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "24"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #16",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/16.png",
+    "edition": 16,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 13"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 14"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 1"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "10"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Flame Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #17",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/17.png",
+    "edition": 17,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 17"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 12"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 9"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "26"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blue Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #18",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/18.png",
+    "edition": 18,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 8"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 15"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 23"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "24"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blue Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #19",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/19.png",
+    "edition": 19,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 14"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 22"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "23"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #20",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/20.png",
+    "edition": 20,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 13"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 14"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "21"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #21",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/21.png",
+    "edition": 21,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 3"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 13"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 13"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "15"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #22",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/22.png",
+    "edition": 22,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 15"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 10"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 22"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "3"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #23",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/23.png",
+    "edition": 23,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 6"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 7"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "19"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blade"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #24",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/24.png",
+    "edition": 24,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 14"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 15"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 5"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "24"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #25",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/25.png",
+    "edition": 25,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 14"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 6"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 11"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "5"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #26",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/26.png",
+    "edition": 26,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 16"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 4"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 22"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "9"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Evil Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #27",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/27.png",
+    "edition": 27,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 6"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 9"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 2"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "18"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #28",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/28.png",
+    "edition": 28,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 16"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 15"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 14"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "12"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Magenta Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #29",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/29.png",
+    "edition": 29,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 8"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 4"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 5"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "6"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blue Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #30",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/30.png",
+    "edition": 30,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 9"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 11"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 23"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "22"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Flame Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #31",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/31.png",
+    "edition": 31,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 14"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 10"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 13"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "17"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Flame Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #32",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/32.png",
+    "edition": 32,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 14"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 7"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 22"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "16"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #33",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/33.png",
+    "edition": 33,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 9"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 4"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 11"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "20"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #34",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/34.png",
+    "edition": 34,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 9"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 8"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "6"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #35",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/35.png",
+    "edition": 35,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 16"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 5"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 20"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "12"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Ice Spear"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #36",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/36.png",
+    "edition": 36,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 7"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 2"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "29"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Flame Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #37",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/37.png",
+    "edition": 37,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 16"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 6"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 10"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "24"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Evil Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #38",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/38.png",
+    "edition": 38,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 14"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 13"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 14"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "20"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #39",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/39.png",
+    "edition": 39,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 17"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 2"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 22"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "9"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blade"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #40",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/40.png",
+    "edition": 40,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 6"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 7"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 13"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "22"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Ice Spear"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #41",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/41.png",
+    "edition": 41,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 16"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 15"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 10"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "4"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Ice Spear"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #42",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/42.png",
+    "edition": 42,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 13"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 2"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 14"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "24"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #43",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/43.png",
+    "edition": 43,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 6"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 11"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 13"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "15"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Ice Spear"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #44",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/44.png",
+    "edition": 44,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 7"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 13"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "35"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #45",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/45.png",
+    "edition": 45,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 5"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 9"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 15"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "24"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Flame Sword"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #46",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/46.png",
+    "edition": 46,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 4"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 15"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 18"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "20"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Ice Spear"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #47",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/47.png",
+    "edition": 47,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 2"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 4"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 21"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "33"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blade"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #48",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/48.png",
+    "edition": 48,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 6"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 4"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 11"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "20"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Blade"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chibi Kingdoms #49",
+    "symbol": "3KC",
+    "description": "Wonderful Three Kingdoms Themed NFT Chibis!",
+    "seller_fee_basis_points": 1000,
+    "image": "image.png",
+    "external_url": "http://localhost:5000/images/49.png",
+    "edition": 49,
+    "creator": "Ivan Cheng",
+    "attributes": [
+      {
+        "trait_type": "Body",
+        "value": "Female"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Eyes 17"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Mouth 11"
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Hair 8"
+      },
+      {
+        "trait_type": "Attire",
+        "value": "35"
+      },
+      {
+        "trait_type": "Main Weapon",
+        "value": "Fire Bolt"
+      },
+      {
+        "trait_type": "Off Weapon",
+        "value": "Shield"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "EdmPws8yxprsYCa2StiEeZyH4dZpeWfzwCsuwHXR5rLo",
+          "share": 100
+        }
+      ]
+    }
+  }
+]

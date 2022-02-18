@@ -1,5 +1,13 @@
-import { Routes, Route } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+import Accordian from "./components/Accordian/Accordian";
+import "react-bootstrap/dist/react-bootstrap.min.js";
+import styled from "styled-components";
+import GlobalStyle from "./globalStyles";
+import Hero from "./components/Hero/Hero";
+//@ts-ignore
+import { Switch, Route, useLocation } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { createTheme, ThemeProvider } from "@material-ui/core";
 import { useMemo } from "react";
 import {
   ConnectionProvider,
@@ -21,11 +29,11 @@ import {
 } from "@solana/wallet-adapter-wallets";
 
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
-import NavigationBar from "./components/Navbar";
+
+import "./App.css";
+import NavigationBar from "./components/navbar/NavigationBar";
 import Home from "./Home";
-import Gallery from "./components/Gallery";
-import Faq from "./components/Faq";
-import Vision from "./components/Vision";
+import Gallery from "./components/gallery/Gallery";
 
 require("@solana/wallet-adapter-react-ui/styles.css");
 
@@ -40,9 +48,37 @@ const connection = new anchor.web3.Connection(rpcHost);
 
 const txTimeout = 30000; // milliseconds (confirm this works for your project)
 
+const theme = createTheme({
+  palette: {
+    type: "dark",
+  },
+  overrides: {
+    MuiButtonBase: {
+      root: {
+        justifyContent: "flex-start",
+      },
+    },
+    MuiButton: {
+      root: {
+        textTransform: undefined,
+        padding: "12px 16px",
+      },
+      startIcon: {
+        marginRight: 8,
+      },
+      endIcon: {
+        marginLeft: 8,
+      },
+    },
+  },
+});
+
+
+
 const App = () => {
   // Custom RPC endpoint.
   const endpoint = useMemo(() => clusterApiUrl(network), []);
+  const location = useLocation();
 
   // @solana/wallet-adapter-wallets includes all the adapters but supports tree shaking and lazy loading --
   // Only the wallets you configure here will be compiled into your application, and only the dependencies
@@ -63,31 +99,37 @@ const App = () => {
   );
 
   return (
-    <div className="App">
+    <ThemeProvider theme={theme}>
       <ConnectionProvider endpoint={endpoint}>
         <WalletProvider wallets={wallets} autoConnect={true}>
           <WalletModalProvider>
+            <GlobalStyle />
             <NavigationBar />
-            <Routes>
-              <Route
-                path="/"
-                element={
-                  <Home
-                    candyMachineId={candyMachineId}
-                    connection={connection}
-                    txTimeout={txTimeout}
-                    rpcHost={rpcHost}
-                  />
-                }
-              />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/faq" element={<Faq />} />
-              <Route path="/vision" element={<Vision />} />
-            </Routes>
+              <AnimatePresence exitBeforeEnter>
+                <Switch location={location} key={location.pathname}>
+                  <Route path="/" exact component={Hero}>
+                    <Hero />
+                  </Route>
+                  <Route path="/mint">
+                    <Home
+                      candyMachineId={candyMachineId}
+                      connection={connection}
+                      txTimeout={txTimeout}
+                      rpcHost={rpcHost}
+                    />
+                  </Route>
+                  <Route path="/gallery">
+                    <Gallery />
+                  </Route>
+                  <Route path="/faq">
+                    <Accordian />
+                  </Route>
+                </Switch>
+              </AnimatePresence>
           </WalletModalProvider>
         </WalletProvider>
       </ConnectionProvider>
-    </div>
+    </ThemeProvider>
   );
 };
 

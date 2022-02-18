@@ -1,4 +1,8 @@
+import "./Home.css";
+import ChibiGirl from "./components/ChibiAnimated";
+import ChibiGif from "./assets/distortedchibi.gif";
 import { useEffect, useState } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import confetti from "canvas-confetti";
 import * as anchor from "@project-serum/anchor";
@@ -8,6 +12,7 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { GatewayProvider } from "@civic/solana-gateway-react";
 import Countdown from "react-countdown";
 import { Snackbar, Paper, LinearProgress, Chip } from "@material-ui/core";
+
 import Alert from "@material-ui/lab/Alert";
 import { toDate, AlertState, getAtaForMint } from "./utils";
 import { MintButton } from "./MintButton";
@@ -19,9 +24,6 @@ import {
   CANDY_MACHINE_PROGRAM,
 } from "./candy-machine";
 
-import AnimatedChibi from "./ChibiAnimated";
-import ChibiGif from "./assets/distortedchibi.gif";
-
 const cluster = process.env.REACT_APP_SOLANA_NETWORK!.toString();
 const decimals = process.env.REACT_APP_SPL_TOKEN_TO_MINT_DECIMALS
   ? +process.env.REACT_APP_SPL_TOKEN_TO_MINT_DECIMALS!.toString()
@@ -30,16 +32,11 @@ const splTokenName = process.env.REACT_APP_SPL_TOKEN_TO_MINT_NAME
   ? process.env.REACT_APP_SPL_TOKEN_TO_MINT_NAME.toString()
   : "TOKEN";
 
-
-
-
-
 const WalletContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: right;
-  background-color: red;
+  justify-content: center;
 `;
 
 const WalletAmount = styled.div`
@@ -49,7 +46,7 @@ const WalletAmount = styled.div`
   min-width: 48px;
   min-height: auto;
   border-radius: 22px;
-  background-color: transparent;
+  background-color: var(--main-text-color);
   box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
     0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
   box-sizing: border-box;
@@ -71,44 +68,64 @@ const WalletAmount = styled.div`
   gap: 10px;
 `;
 
+const Wallet = styled.ul`
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+`;
 
 const ConnectButton = styled(WalletMultiButton)`
   border-radius: 18px !important;
   padding: 6px 16px;
-  background-color: #4e44ce;
+  background: radial-gradient(
+    circle,
+    rgba(199, 82, 82, 1) 31%,
+    rgba(73, 176, 215, 1) 53%,
+    rgba(213, 193, 76, 1) 79%,
+    rgba(255, 76, 0, 1) 100%
+  );
   margin: 0 auto;
+`;
+
+const StyledContainer = styled(Container)`
+  padding: 40px;
+  height: 100%;
+  width: 100%;
 `;
 
 const NFT = styled(Paper)`
   min-width: 400px;
   padding: 5px 20px 20px 20px;
   flex: 1 1 auto;
-  background-color: transparent !important;
-  border-radius: 100px;
 `;
+
 const Des = styled(NFT)`
   text-align: left;
   padding-top: 0px;
-  align-items: center;
-  justify-content: center;
 `;
 
 const Card = styled(Paper)`
   display: inline-block;
-  background-color: red !important;
+  background-color: transparent !important;
   margin: 5px;
   padding: 24px;
 `;
 
 const MintButtonContainer = styled.div`
   button.MuiButton-contained:not(.MuiButton-containedPrimary).Mui-disabled {
-    color: #464646;
+    background: radial-gradient(
+      circle,
+      rgba(199, 82, 82, 1) 31%,
+      rgba(73, 176, 215, 1) 53%,
+      rgba(213, 193, 76, 1) 79%,
+      rgba(255, 76, 0, 1) 100%
+    );
   }
 
   button.MuiButton-contained:not(.MuiButton-containedPrimary):hover,
   button.MuiButton-contained:not(.MuiButton-containedPrimary):focus {
     -webkit-animation: pulse 1s;
-    animation: pulse 1s;
+    animation: pulse 3s;
     box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
   }
 
@@ -126,8 +143,8 @@ const MintButtonContainer = styled.div`
 `;
 
 const SolExplorerLink = styled.a`
-  color: red;
-  border-bottom: 1px solid red;
+  color: #962ffe;
+  border-bottom: 1px solid #b7fe66;
   font-weight: bold;
   list-style-image: none;
   list-style-position: outside;
@@ -137,16 +154,22 @@ const SolExplorerLink = styled.a`
   text-size-adjust: 100%;
 
   :hover {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #fe7723;
   }
 `;
 
 const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
   text-align: center;
   justify-content: center;
+  background-color: yellow;
 `;
 
 const MintContainer = styled.div`
@@ -162,6 +185,7 @@ const DesContainer = styled.div`
   flex-direction: column;
   flex: 1 1 auto;
   gap: 20px;
+  margin: 60px;
 `;
 
 const Price = styled(Chip)`
@@ -184,39 +208,39 @@ const BorderLinearProgress = styled(LinearProgress)`
   border-radius: 30px;
   border: 2px solid white;
   box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.5);
-  background-color: red !important;
+  background-color: #9cadfe !important;
 
   > div.MuiLinearProgress-barColorPrimary {
-    background-color: red !important;
+    background-color: #feaa5e !important;
   }
 
   > div.MuiLinearProgress-bar1Determinate {
     border-radius: 30px !important;
     background-image: linear-gradient(
       270deg,
-      rgba(255, 255, 255, 0.01),
-      rgba(255, 255, 255, 0.5)
+      red,
+      red,
     );
   }
 `;
 
-const ShimmerTitle = styled.h1`
+const ShimmerTitle = styled.h2`
   margin: 50px auto;
   text-transform: uppercase;
   animation: glow 2s ease-in-out infinite alternate;
-  color: red;
+  color: #000000;
   @keyframes glow {
     from {
-      text-shadow: 0 0 20px red;
+      text-shadow: 0 0 20px #fe91b1;
     }
     to {
-      text-shadow: 0 0 30px red, 0 0 10px red;
+      text-shadow: 0 0 30px #fe4433, 0 0 10px #18fedb;
     }
   }
 `;
 
 const GoldTitle = styled.h2`
-  color: red;
+  color: #feb432;
 `;
 
 const LogoAligner = styled.div`
@@ -427,7 +451,7 @@ const Home = (props: HomeProps) => {
         if (!status?.err) {
           setAlertState({
             open: true,
-            message: "Congratulations! Mint succeeded!",
+            message: "WELCOME TO THE CLUB",
             severity: "success",
           });
 
@@ -436,13 +460,12 @@ const Home = (props: HomeProps) => {
         } else {
           setAlertState({
             open: true,
-            message: "Mint failed! Please try again!",
+            message: "Error, please try again",
             severity: "error",
           });
         }
       }
     } catch (error: any) {
-      // TODO: blech:
       let message = error.msg || "Minting failed! Please try again!";
       if (!error.msg) {
         if (!error.message) {
@@ -487,26 +510,13 @@ const Home = (props: HomeProps) => {
   ]);
 
   return (
-    <MainContainer>
-
+    <>
       <MainContainer>
-        <WalletContainer>
-            {wallet ? (
-              <WalletAmount>
-                {(balance || 0).toLocaleString()} SOL
-                <ConnectButton />
-              </WalletAmount>
-            ) : (
-              <ConnectButton>SELECT</ConnectButton>
-            )}
-        </WalletContainer>
-        <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
-        <br />
-
+        <ShimmerTitle>Chibi Kingdoms</ShimmerTitle>
         <MintContainer>
           <DesContainer>
             <NFT elevation={24}>
-              <h2>Kingdom Chibis</h2>
+              <h3>がんばって</h3>
               <br />
               <div>
                 <Price
@@ -516,7 +526,7 @@ const Home = (props: HomeProps) => {
                       : price + " " + priceLabel
                   }
                 />
-                <Image src={ChibiGif} alt="NFT To Mint" />
+                <Image src={ChibiGif} alt="Chibi Gifs" />
               </div>
               <br />
               {wallet &&
@@ -600,12 +610,50 @@ const Home = (props: HomeProps) => {
             </NFT>
           </DesContainer>
           <DesContainer>
+            <br />
             <Des elevation={2}>
-              <LogoAligner>
-                <img src="logo.png" alt=""></img>
-                <GoldTitle>TITLE 1</GoldTitle>
-              </LogoAligner>
-              <AnimatedChibi />
+              <StyledContainer fluid>
+                <Row>
+                  <Col lg={6}>
+                    <p className="title">WELCOME TO CHIBI KINGDOMS</p>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <p className="subText">
+                      3KC is a collection of 6,666 Chibis NFTs—unique digital
+                      collectibles living on the Solana blockchain. Your Chibi
+                      doubles as your Chibi Kingdoms membership card, and grants
+                      access to members-only benefits, the first of which is
+                      access to THE BATHROOM, a collaborative graffiti board.
+                      Future areas and perks can be unlocked by the community
+                      through roadmap activation.
+                    </p>
+                  </Col>
+                  <Col lg={6}>
+                    <ChibiGirl />
+                  </Col>
+                </Row>
+              </StyledContainer>
+            </Des>
+            <Des elevation={2}>
+              <StyledContainer fluid>
+                <Row>
+                  <Col lg={6}>
+                    <img src="./lootbox.gif" alt="sad" />
+                  </Col>
+                  <Col lg={6}>
+                    <p className="title">THE SPECS</p>
+                    <p className="subText">
+                      Each CHIBI is unique and programmatically generated from
+                      over 170 possible traits, including expression, main
+                      weapon, attire, and more.
+                    </p>
+                    <p className="subText">
+                      All Chibis are dope, but some are rarer than others.
+                    </p>
+                  </Col>
+                </Row>
+              </StyledContainer>
             </Des>
           </DesContainer>
         </MintContainer>
@@ -622,7 +670,7 @@ const Home = (props: HomeProps) => {
           {alertState.message}
         </Alert>
       </Snackbar>
-    </MainContainer>
+    </>
   );
 };
 

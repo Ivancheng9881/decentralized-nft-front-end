@@ -6,12 +6,14 @@ import { GatewayStatus, useGateway } from "@civic/solana-gateway-react";
 import { CandyMachine } from "./candy-machine";
 
 export const CTAButton = styled(Button)`
-  display: block !important;
+  display: inline !important;
   margin: 0 auto !important;
   background-color: var(--title-text-color) !important;
   min-width: 120px !important;
   font-size: 1em !important;
 `;
+
+
 
 export const MintButton = ({
   onMint,
